@@ -2,13 +2,18 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:GasolinaAlcool"
-             x:Class="GasolinaAlcool.MainPage">
-
+             x:Class="GasolinaAlcool.MainPage"
+             Title="Gsolina x Alcool" >
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
+        <Label Text="Gasolina x Álcool"
            HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+           VerticalOptions="Start"
+           Margin="0, 30, 0, 50"
+           FontSize="30"/>
 
+        <Entry x:Name="txtAlcool" Placeholder="Preço do álcool" HorizontalOptions="Start" Keyboard="Numeric"/>
+        <Entry x:Name="txtGasolina" Placeholder="Preço da gasolina" HorizontalOptions="Start" Keyboard="Numeric"/>
+        <Button x:Name="btnVerificar" Text="Verificar" Margin="40, 30, 40, 30" BorderRadius="30" Clicked="btnVerificar_Clicked"/>
+        <Label x:Name="lblExibeResultado" Text="" FontSize="20" HorizontalOptions="Center" />
+    </StackLayout>
 </ContentPage>
