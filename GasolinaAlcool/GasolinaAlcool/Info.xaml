@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GasolinaAlcool.Info">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label HorizontalOptions="CenterAndExpand" Text="O QUE É?" FontSize="Large" Margin="0, 20, 0, 15"/>
+            <Label Text="Esse aplicatico te ajuda no cálculo para checar se vale mais a pena abastecer seu carro flex com álcool ou gasolina."
+                   HorizontalOptions="StartAndExpand" Margin="10, 0, 10, 0"/>
+            <Label HorizontalOptions="CenterAndExpand" Text="COMO USAR?" FontSize="Large" Margin="0, 20, 0, 15"/>
+            <Label Text="Entre com os preços atuais de álcool e gasolina no posto onde você irá abastecer e econimize muitos centavos."
+                   HorizontalOptions="StartAndExpand" Margin="10, 0, 10, 0"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

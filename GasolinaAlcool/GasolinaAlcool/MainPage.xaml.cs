@@ -44,5 +44,10 @@ namespace GasolinaAlcool
                 throw ex;
             }
         }
+
+        private void ToolbarItem_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Info());
+        }
     }
 }

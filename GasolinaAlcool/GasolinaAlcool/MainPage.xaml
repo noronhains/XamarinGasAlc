@@ -4,17 +4,25 @@
              xmlns:local="clr-namespace:GasolinaAlcool"
              xmlns:adroid="http://schemas.android.com/apk/res/android"
              x:Class="GasolinaAlcool.MainPage"
-             Title="Gsolina x Alcool" >
-    <StackLayout>
-        <Label Text="Gasolina x Álcool"
+             Title="Com qual abastecer?" >
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Info" Icon="info.png" Clicked="ToolbarItem_Clicked"/>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Gasolina x Álcool"
            HorizontalOptions="Center"
            VerticalOptions="Start"
            Margin="0, 30, 0, 50"
            FontSize="30"/>
 
-        <Entry x:Name="txtAlcool" Placeholder="Preço do álcool" HorizontalOptions="Start" Keyboard="Numeric"/>
-        <Entry x:Name="txtGasolina" Placeholder="Preço da gasolina" HorizontalOptions="Start" Keyboard="Numeric"/>
-        <Button x:Name="btnVerificar" Text="Verificar" Margin="40, 30, 40, 30" BorderRadius="30" Clicked="btnVerificar_Clicked"/>
-        <Label x:Name="lblExibeResultado" Text="" FontSize="20" HorizontalOptions="Center" />
-    </StackLayout>
+            <Entry x:Name="txtAlcool" Placeholder="Preço do álcool" HorizontalOptions="Start" Keyboard="Numeric"/>
+            <Entry x:Name="txtGasolina" Placeholder="Preço da gasolina" HorizontalOptions="Start" Keyboard="Numeric"/>
+            <Button x:Name="btnVerificar" Text="Verificar" Margin="40, 30, 40, 30" BorderRadius="30" Clicked="btnVerificar_Clicked"/>
+            <Label x:Name="lblExibeResultado" Text="" FontSize="20" HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+    
 </ContentPage>
