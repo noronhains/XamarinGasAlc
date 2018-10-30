@@ -10,6 +10,9 @@
             <Label HorizontalOptions="CenterAndExpand" Text="COMO USAR?" FontSize="Large" Margin="0, 20, 0, 15"/>
             <Label Text="Entre com os preços atuais de álcool e gasolina no posto onde você irá abastecer e econimize muitos centavos."
                    HorizontalOptions="StartAndExpand" Margin="10, 0, 10, 0"/>
+            <Label HorizontalOptions="CenterAndExpand" Text="COMO FUNCIONA?" FontSize="Large" Margin="0, 20, 0, 15"/>
+            <Label Text="A diferença entre o preço dos dois combustíveis está na proporção preço X desempenho. Para o álcool ser mais vantajoso que a gasolina o preço do litro precisa ser até 70% mais barato que o litro da gasolina."
+                   HorizontalOptions="StartAndExpand" Margin="10, 0, 10, 0"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
