@@ -20,13 +20,13 @@
                    FontSize="30"/>
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Padding="0">
                 <Label Text="R$" FontSize="30" HorizontalOptions="Center" Margin="0" VerticalOptions="End"/>
-                <Entry x:Name="txtGasolina" Placeholder="Gasolina" HorizontalOptions="Start" Keyboard="Numeric" WidthRequest="80"/>
-                <Label Text="X" FontSize="30" HorizontalOptions="Center" Margin="0" VerticalOptions="End"/>
+                <Entry x:Name="txtGasolina" HorizontalTextAlignment="Center" Placeholder="Gasolina" HorizontalOptions="Start" Keyboard="Numeric" WidthRequest="80"/>
+                <Label Text="x" FontSize="30" HorizontalOptions="Center" Margin="0" VerticalOptions="End"/>
                 <Label Text="R$" FontSize="30" HorizontalOptions="Center" Margin="0" VerticalOptions="End"/>
-                <Entry x:Name="txtAlcool" Placeholder="Álcool" HorizontalOptions="Start" Keyboard="Numeric" WidthRequest="80"/>
+                <Entry x:Name="txtAlcool" HorizontalTextAlignment="Center" Placeholder="Álcool" HorizontalOptions="Start" Keyboard="Numeric" WidthRequest="80"/>
             </StackLayout>
             <Button x:Name="btnVerificar" Text="Verificar" Margin="40, 30, 40, 30" BorderRadius="30" Clicked="btnVerificar_Clicked"/>
-            <Label x:Name="lblExibeResultado" Text="" FontSize="20" HorizontalOptions="Center" Margin="20, 0, 0, 20" BackgroundColor="#EEE"/>
+            <Label x:Name="lblExibeResultado" Text="" FontSize="18" HorizontalOptions="Center" Margin="20, 0, 0, 20" BackgroundColor="#EEE"/>
         </StackLayout>
     </ContentPage.Content>
     
