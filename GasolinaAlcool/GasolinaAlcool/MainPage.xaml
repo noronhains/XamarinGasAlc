@@ -22,7 +22,7 @@
                 <Label Text="R$" FontSize="30" HorizontalOptions="Center" Margin="0" VerticalOptions="End"/>
                 <Entry x:Name="txtGasolina" HorizontalTextAlignment="Center" Placeholder="Gasolina" HorizontalOptions="Start" Keyboard="Numeric" WidthRequest="80"/>
                 <Label Text="x" FontSize="30" HorizontalOptions="Center" Margin="0" VerticalOptions="End"/>
-                <Label Text="R$" FontSize="30" HorizontalOptions="Center" Margin="0" VerticalOptions="End"/>
+                <Label Text="R$" FontSize="30" HorizontalOptions="Center" Margin="4, 0, 0, 0" VerticalOptions="End"/>
                 <Entry x:Name="txtAlcool" HorizontalTextAlignment="Center" Placeholder="Álcool" HorizontalOptions="Start" Keyboard="Numeric" WidthRequest="80"/>
             </StackLayout>
             <Button x:Name="btnVerificar" Text="Verificar" Margin="40, 30, 40, 30" BorderRadius="30" Clicked="btnVerificar_Clicked"/>
