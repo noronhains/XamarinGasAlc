@@ -20,6 +20,7 @@ namespace GasolinaAlcool
             float precoAlcool;
             float precoGasolina;
             lblExibeResultado.Text = "";
+            
             if (txtAlcool.Text == null || txtGasolina.Text == null || txtAlcool.Text == "" || txtGasolina.Text == "")
             {
                 return;
