@@ -27,6 +27,9 @@
             </StackLayout>
             <Button x:Name="btnVerificar" Text="Verificar" Margin="40, 30, 40, 30" BorderRadius="30" Clicked="btnVerificar_Clicked"/>
             <Label x:Name="lblExibeResultado" Text="" FontSize="18" HorizontalOptions="Center" Margin="20, 0, 0, 20" BackgroundColor="#EEE"/>
+
+            <local:AdMobView x:Name="adMobView" 
+                         VerticalOptions="EndAndExpand"/>
         </StackLayout>
     </ContentPage.Content>
     
