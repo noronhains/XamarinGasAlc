@@ -17,7 +17,7 @@ namespace GasolinaAlcool
             BindingContext = this;
 
             if (Device.RuntimePlatform == Device.Android)
-                adMobView.AdUnitId = "ca-app-pub-7579073752816689/2339025679";
+                adMobView.AdUnitId = "ca-app-pub-7579073752816689/9694362394";
         }
 
         private void btnVerificar_Clicked(object sender, EventArgs e)

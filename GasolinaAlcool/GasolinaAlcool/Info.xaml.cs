@@ -15,6 +15,7 @@ namespace GasolinaAlcool
 		public Info ()
 		{
 			InitializeComponent ();
-		}
+
+        }
 	}
 }
